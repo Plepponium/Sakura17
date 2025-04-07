@@ -1,0 +1,48 @@
+nav {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        >a {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone-btn {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: darkred;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+        background-color: red;
+    }
+    >img {
+        width: 24px;
+        height: 24px;
+    }
+    >a {
+        
+    }
+}
