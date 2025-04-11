@@ -12,7 +12,7 @@ footer {
     justify-content: space-between;
     padding: 64px;
     >img {
-        width: 128px;
         height: 32px;
+        aspect-ratio: auto;
     }
 }
